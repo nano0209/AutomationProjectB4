@@ -28,7 +28,7 @@ public class T3_getAttribute_css {
 
      */
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
 
         // GO TO THE URL
         WebDriver driver = WebDriverUtil.getDriver(GeneralConstants.BROWSER);
@@ -51,5 +51,26 @@ public class T3_getAttribute_css {
             System.out.println("Expected result DOES NOT match the actual");
             System.out.println("Test Fail");
         }
+
+        WebElement userName = driver.findElement(By.cssSelector("input[id='input-14']"));
+        userName.sendKeys(DocuportConstants.USERNAME_CLIENT);
+
+        WebElement password = driver.findElement(By.cssSelector("input[type='password']"));
+        password.sendKeys(DocuportConstants.PASSWORD_All);
+
+        WebElement loginButton = driver.findElement(By.cssSelector("button[type='submit']"));
+        loginButton.click();
+
+        Thread.sleep(3000);
+
+        WebElement homeIcon = driver.findElement(By.cssSelector("[class='v-icon notranslate mdi mdi-home theme--light']"));
+
+        if (homeIcon.isDisplayed()) {
+            System.out.println("Login was successful");
+        } else {
+            System.out.println("Login failed");
+        }
+
+        driver.quit();
     }
 }
