@@ -18,6 +18,8 @@ public class DocuportConstants {
 
 
     //generic password
-    public static final String PASSWORD_All = "Group2";
+    public static final String PASSWORD_All = "Group1";
+
+
 
 }
