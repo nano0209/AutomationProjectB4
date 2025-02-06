@@ -4,19 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2b4dc7a-25e2-454e-8f49-1b9e23f5310a" name="Changes" comment="day 6 files">
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day7/T00_login_docuport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day7/T0_iframe_practice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day7/T1_window.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day7/T2_new_methods_window.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day7/T3_window_titles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/utilities/BrowserUtils.java" afterDir="false" />
+    <list default="true" id="d2b4dc7a-25e2-454e-8f49-1b9e23f5310a" name="Changes" comment="day 7">
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day7/T4_webTables.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day8/T0000_singleton_practice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day8/T000_singleton_pattern_example.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day8/T00_test_config_reader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day8/T0_pizza_order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day8/T1_google_search.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day8/T2_java_faker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day8/T3_uploads.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/home_practice/Extra_Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/home_practice/Task3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/utilities/DocuportWebTableUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/utilities/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/utilities/PizzaOrderWebTableUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/loop/test/DocuportConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/DocuportConstants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/loop/test/utilities/DocuportUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/utilities/DocuportUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/io/loop/test/DocuportConstants.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/io/loop/test/DocuportConstants.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/io/loop/test/utilities/DocuportUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/io/loop/test/utilities/DocuportUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/loop/test/home_practice/Task1_Google.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +77,7 @@
     "Application.T000_staleElementException.executor": "Run",
     "Application.T00_checkBox.executor": "Run",
     "Application.T00_css_isDisplayed.executor": "Run",
+    "Application.T00_test_config_reader.executor": "Run",
     "Application.T0_forgot_password.executor": "Run",
     "Application.T0_radioButton.executor": "Run",
     "Application.T1_findElements.executor": "Run",
@@ -81,21 +87,30 @@
     "Application.Task1_Google.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "TestNG.Extra_Task.executor": "Run",
+    "TestNG.T0000_singleton_practice.practice.executor": "Run",
     "TestNG.T00_login_docuport.test_login_logout_docuport.executor": "Run",
     "TestNG.T0_iframe_practice.left.executor": "Run",
+    "TestNG.T0_pizza_order.executor": "Run",
+    "TestNG.T1_google_search.executor": "Run",
     "TestNG.T1_testNG_intro (1).executor": "Run",
     "TestNG.T1_testNG_intro (2).executor": "Run",
     "TestNG.T1_testNG_intro (3).executor": "Run",
     "TestNG.T1_testNG_intro.executor": "Run",
     "TestNG.T1_testNG_intro.test1.executor": "Run",
     "TestNG.T1_window.test_window_handle.executor": "Run",
+    "TestNG.T2_java_faker.executor": "Run",
+    "TestNG.T2_java_faker.java_faker.executor": "Run",
     "TestNG.T2_new_methods_window.test_new_methods.executor": "Run",
     "TestNG.T2_new_methods_window.test_new_methods_.executor": "Run",
     "TestNG.T2_testNG_with_selenium.docuportTitle.executor": "Run",
     "TestNG.T2_testNG_with_selenium.executor": "Run",
     "TestNG.T2_testNG_with_selenium.googleTitle.executor": "Run",
+    "TestNG.T3_uploads.upload_file.executor": "Run",
     "TestNG.T3_window_titles.windowHandleTitle.executor": "Run",
-    "git-widget-placeholder": "day__7",
+    "TestNG.T4_webTables.test_webTables.executor": "Run",
+    "TestNG.Task3.validateTextNewWindow.executor": "Run",
+    "git-widget-placeholder": "day__8",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -106,18 +121,52 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.T3_window_titles.windowHandleTitle">
-    <configuration name="T00_login_docuport.test_login_logout_docuport" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.Extra_Task">
+    <configuration name="Extra_Task" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationProjectB4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.loop.test.day7.*" />
+          <option name="PATTERN" value="io.loop.test.home_practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="io.loop.test.day7" />
-      <option name="MAIN_CLASS_NAME" value="io.loop.test.day7.T00_login_docuport" />
-      <option name="METHOD_NAME" value="test_login_logout_docuport" />
+      <option name="PACKAGE_NAME" value="io.loop.test.home_practice" />
+      <option name="MAIN_CLASS_NAME" value="io.loop.test.home_practice.Extra_Task" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="T0_pizza_order" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationProjectB4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.loop.test.day8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.loop.test.day8" />
+      <option name="MAIN_CLASS_NAME" value="io.loop.test.day8.T0_pizza_order" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="T2_java_faker.java_faker" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationProjectB4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.loop.test.day8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.loop.test.day8" />
+      <option name="MAIN_CLASS_NAME" value="io.loop.test.day8.T2_java_faker" />
+      <option name="METHOD_NAME" value="java_faker" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -125,17 +174,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T1_window.test_window_handle" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="T3_uploads.upload_file" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationProjectB4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.loop.test.day7.*" />
+          <option name="PATTERN" value="io.loop.test.day8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="io.loop.test.day7" />
-      <option name="MAIN_CLASS_NAME" value="io.loop.test.day7.T1_window" />
-      <option name="METHOD_NAME" value="test_window_handle" />
+      <option name="PACKAGE_NAME" value="io.loop.test.day8" />
+      <option name="MAIN_CLASS_NAME" value="io.loop.test.day8.T3_uploads" />
+      <option name="METHOD_NAME" value="upload_file" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -143,7 +192,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T2_new_methods_window.test_new_methods" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="T4_webTables.test_webTables" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationProjectB4" />
       <extension name="coverage">
         <pattern>
@@ -152,44 +201,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="io.loop.test.day7" />
-      <option name="MAIN_CLASS_NAME" value="io.loop.test.day7.T2_new_methods_window" />
-      <option name="METHOD_NAME" value="test_new_methods" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="T2_new_methods_window.test_new_methods_" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AutomationProjectB4" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.loop.test.day7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="io.loop.test.day7" />
-      <option name="MAIN_CLASS_NAME" value="io.loop.test.day7.T2_new_methods_window" />
-      <option name="METHOD_NAME" value="test_new_methods_" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="T3_window_titles.windowHandleTitle" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AutomationProjectB4" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.loop.test.day7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="io.loop.test.day7" />
-      <option name="MAIN_CLASS_NAME" value="io.loop.test.day7.T3_window_titles" />
-      <option name="METHOD_NAME" value="windowHandleTitle" />
+      <option name="MAIN_CLASS_NAME" value="io.loop.test.day7.T4_webTables" />
+      <option name="METHOD_NAME" value="test_webTables" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -199,11 +212,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.T3_window_titles.windowHandleTitle" />
-        <item itemvalue="TestNG.T2_new_methods_window.test_new_methods" />
-        <item itemvalue="TestNG.T2_new_methods_window.test_new_methods_" />
-        <item itemvalue="TestNG.T1_window.test_window_handle" />
-        <item itemvalue="TestNG.T00_login_docuport.test_login_logout_docuport" />
+        <item itemvalue="TestNG.Extra_Task" />
+        <item itemvalue="TestNG.T4_webTables.test_webTables" />
+        <item itemvalue="TestNG.T0_pizza_order" />
+        <item itemvalue="TestNG.T3_uploads.upload_file" />
+        <item itemvalue="TestNG.T2_java_faker.java_faker" />
       </list>
     </recent_temporary>
   </component>
@@ -231,6 +244,8 @@
       <workItem from="1737244944576" duration="5367000" />
       <workItem from="1738028544144" duration="622000" />
       <workItem from="1738281934217" duration="8859000" />
+      <workItem from="1738438538135" duration="12706000" />
+      <workItem from="1738872958192" duration="5919000" />
     </task>
     <task id="LOCAL-00001" summary="My first commit">
       <option name="closed" value="true" />
