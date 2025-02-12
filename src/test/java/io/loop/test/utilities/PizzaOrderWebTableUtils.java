@@ -50,7 +50,7 @@ public class PizzaOrderWebTableUtils {
 
         WebElement element = driver.findElement(By.xpath("//td[.='" + name + "']//following-sibling::td" + index));
 
-        return element.getText();
+        return element.getText().trim();
 
 
     }

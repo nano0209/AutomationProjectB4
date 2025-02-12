@@ -1,5 +1,6 @@
 package io.loop.test.day8;
 
+import io.loop.test.base.TestBase;
 import io.loop.test.utilities.PizzaOrderWebTableUtils;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -7,17 +8,19 @@ import org.testng.annotations.Test;
 import static io.loop.test.utilities.Driver.getDriver;
 import static org.testng.Assert.assertEquals;
 
-public class T0_pizza_order {
+public class T0_pizza_order extends TestBase {
 
-    @BeforeMethod
-    public void url (){getDriver().get("https://loopcamp.vercel.app/web-tables.html");
-    }
+
+
 
     @Test
     public void test_pizza_type(){
+        driver.get("https://loopcamp.vercel.app/web-tables.html");
         String name = "Alexandra Gray";
         String expectedPizzaType = "Thin Crust";
-        assertEquals(PizzaOrderWebTableUtils.returnAnyFieldValue(getDriver(), name, "Pizza type"), expectedPizzaType);
+        String actualPizzaType = PizzaOrderWebTableUtils.returnAnyFieldValue(driver, name, "pizza type");
+
+        assertEquals(actualPizzaType, expectedPizzaType, "Actual does not match expected");
     }
 
 
@@ -25,7 +28,8 @@ public class T0_pizza_order {
     public void test_amount(){
         String name = "John Doe";
         String expectedAccount = "3";
-        assertEquals(PizzaOrderWebTableUtils.returnAnyFieldValue(getDriver(), name, "Amount"), expectedAccount);
+        String actualAccount = PizzaOrderWebTableUtils.returnAnyFieldValue(driver, name, "account");
+        assertEquals(actualAccount, expectedAccount, "Actual does not match");
 
     }
     @Test
